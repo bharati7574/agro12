@@ -1,0 +1,246 @@
+
+  
+  
+
+  .bg-img{
+    
+    filter: blur(2px);
+    -webkit-filter: blur(2px)
+  }
+ 
+  .img-fluid{
+    width: 100%;
+  }
+   .backyard{
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/21/11/23/grapes-1844745_960_720.jpg');
+    height: 400px;
+    width: 100%;   
+     background-size: cover;
+     background-position: center;
+     filter: blur(80%);
+     filter: brightness(100%);
+
+    background-repeat: no-repeat;
+   }
+
+  .centered {
+      // position: absolute;
+      color: white;
+      filter:brightness(100%);
+      filter: contrast(100%);
+      padding-top: 150px;
+      //padding-right: 130px;
+     text-align: center;
+      //top: 50%;
+      //left: 50%;
+      //transform: translate(-50%, -50%);
+      font-size: 60px;
+      // font-family: italic;
+      
+      
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold ;
+      // animation-name: example;
+      // animation-duration: 4s;
+      
+    }
+    
+    // @keyframes example {
+    
+    //   from {left: 0%;color: black;}
+    //   to {right:0%}
+    // }
+    
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@400;500;700&display=swap');
+
+:root{
+  --para-text: 'Josefin Slab', serif;
+}
+
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Oswald', sans-serif;
+  min-height: 100vh;
+  margin: 0;
+}
+  
+.section-subtitle, .section-title{
+  text-align: center;
+}
+.section-subtitle{
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  color: rgb(13, 14, 13);
+}
+.section-title{
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  margin-top: 0;
+  font-weight: 500;
+ // margin-bottom: 80px;
+  color: rgb(18, 18, 18);
+}
+.bestSelling-beers{
+  display: flex;
+  flex-flow: row;
+  justify-content:center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.bs-card{
+  width: 300px;
+  // height: 500px;
+}
+.bs-card-img{
+  height: 350px;
+  width: 100%;
+  padding: 20%;
+  background-position: center 45%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #f3f3f4;
+}
+ #bs-img-1{
+    height: 350px;
+    width: 100%;
+    padding: 10%;
+    background-position: center 45%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #f3f3f4;
+    
+}
+ #bs-img-2{
+    height: 350px;
+    width: 100%;
+    padding: 10%;
+    background-position: center 45%;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-color: #f3f3f4;
+   
+    
+}
+#bs-img-3{
+    height: 350px;
+    width: 100%;
+    padding: 10%;
+    background-position: center 45%;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-color: #f3f3f4;
+    
+}
+.bs-card-img{
+    height: 350px;
+    width: 100%;
+    padding: 10%;
+    background-position: center 45%;
+    background-size: 118%;
+    background-repeat: no-repeat;
+    background-color: #f3f3f4;
+  }
+ 
+#bs-img-1{
+  background-image: url(https://c1.wallpaperflare.com/preview/63/650/490/grape-red-grapes-fruit-nature.jpg);
+}
+#bs-img-2{
+  background-image: url(https://images.pexels.com/photos/4186544/pexels-photo-4186544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+#bs-img-3{
+  background-image: url(https://images.pexels.com/photos/760281/pexels-photo-760281.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+// .bs-card-body{
+//   padding: 10px 0;
+  
+// }
+.bs-card-header{
+  height: 50px;
+  margin-bottom: 10px;
+}
+.bs-card-title{
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: inherit;
+  font-weight: 700;
+  text-decoration: none;
+  line-height: 10px;
+  
+  
+}
+
+.bs-beer-data{
+  font-family: var(--para-text);
+  font-size: 1.1rem;
+  font-weight: 500;
+  display: flex;
+  flex-flow: column;
+  gap: 15px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #aaa;
+}
+
+.bs-card{
+  transition: transform .2s; 
+}
+.bs-card:hover{
+
+transform: scale(1.01);
+}
+.title{
+  text-align: center;
+  font-style: bold;
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  margin-top: 0;
+  font-weight: 500;
+  margin-bottom: 80px;
+  color: rgb(18, 18, 18);
+  animation: slideLeft 1.5s forwards;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  // transition: transform .2s; 
+  
+}
+
+
+  
+  
+.gif{
+  height: 100px;
+  justify-content: center;
+}
+.gif1{
+  height: 100px;
+  
+  justify-content: center;
+  align-items: center;
+  
+}
+.breadcrumb {
+  
+  background-color: #f4f0f0;
+  justify-content: center;
+  height: 50px;
+}
+.breadcrumb-item{
+margin-top: 10px;
+justify-content: center;
+}
+// media
+// @media(max-width:1000){
+//   footer{
+//     height: 1200px;
+//   }
+@media screen and  (max-width:1000){
+  .product  {
+      grid-template-columns: repeat(auto-fit, minmax(75px, 120px));
+      gap: calc(var(--space-base) / 2);
+  }
+  
+}
